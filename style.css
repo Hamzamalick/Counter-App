@@ -12,6 +12,7 @@ html, body{
 main{
     width: 100%;
     height: 100vh;
+    padding: 20px;
     background-color: #EEF3FF;
     display: flex;
     align-items: center;
@@ -37,7 +38,7 @@ padding: 10px;
 }
 
 .counter-screen h2{
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 .counter-btns{
@@ -54,4 +55,5 @@ padding: 10px;
     padding: 10px 30px;
     cursor: pointer;
     border-radius: 10px;
+    user-select: none;
 }
