@@ -2,4 +2,56 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #EEF3FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-card{
+width: 400px;
+height: 500px;
+background-color: #fff;
+border-radius: 10px;
+padding: 10px;
+}
+
+.counter-screen{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(45deg, #D8FF74, #FFE282);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-screen h2{
+    font-size: 3rem;
+}
+
+.counter-btns{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.add, .minus{
+    font-size: 3rem;
+    background-color: #F0F7FF;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 10px;
 }
