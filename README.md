@@ -22,8 +22,7 @@ This project demonstrates the use of **DOM Manipulation** and **Event Listeners*
 ---
 
 ## 📸 Preview
-![Counter App Screenshot](./screenshot.png)  
-*(Add a screenshot of your app in the repository folder and update the file path above.)*
+![Counter App Screenshot](./Images/sample.png)  
 
 ---
 
